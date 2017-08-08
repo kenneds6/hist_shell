@@ -120,6 +120,7 @@ void readTok(char in[], char *args[],int *isAmp)
     				}
     		}
     //update history
+	
     for (int i = 9; i>0; i--)
     	strcpy(hist[i], hist[i-1]);
         strcpy(hist[0],in);
